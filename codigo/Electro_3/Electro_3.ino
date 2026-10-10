@@ -126,7 +126,7 @@ void setup() {
 
   Serial.println();
   Serial.println("==========================================");
-  Serial.println(" ESTACION NEONATAL - ESP32");
+  Serial.println(" Incubadora - ESP32");
   Serial.println("==========================================");
 
   // Bus I2C para MAX30102 y MPU6500
@@ -561,7 +561,7 @@ void verificarRFID() {
 void mostrarTelemetria() {
   Serial.println();
   Serial.println(
-    "--- TELEMETRIA DEL NODO BIOMEDICO ---"
+    "--- Datos actuales ---"
   );
 
   // DS18B20
